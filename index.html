@@ -1,31 +1,68 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- icon -->
-    <link rel="icon"  href="/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
     <!-- title -->
     <title>Order - Dashboard</title>
 
     <!-- style -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/layouts/header.css">
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.rtl.min.css">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/ico/font-awesome/css/all.min.css">
 </head>
+
 <body>
 
+    <header>
+        <div class="brand">
+            <img src="./assets/img/brand/full-logo.png" alt="شعار الموقع">
+        </div>
 
-
+        <div class="content">
+            <div class="first-items">
+                <div class="profile">
+                    <div class="img-box">
+                        <img src="./assets/img/profile/profile.png" alt="صورة الملف الشخصي">
+                    </div>
+                    <div class="data">
+                        <div class="name">معاذ رائد أبو عودة</div>
+                        <div class="job">المدير العام</div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-items">
+                <div class="search-box">
+                    <form>
+                        <input type="text" placeholder="إبحث هنا ...">
+                        <a href="#">
+                            <i class="fa-regular fa-magnifying-glass"></i>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!-- app -->
     <script src="./assets/js/app.js"></script>
 
     <!-- bootstrap -->
     <script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="./assets/ico/font-awesome/js/pro.js"></script>
 </body>
+
 </html>

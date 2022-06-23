@@ -1,0 +1,106 @@
+header {
+    height: 5.5rem;
+    right: 0;
+    left: var(--side-width);
+    position: fixed;
+    display: flex;
+}
+
+header .brand {
+    height: 5.5rem;
+    width: var(--nav-width);
+    margin-right: 4rem;
+    align-items: center;
+}
+
+header .brand img {
+    width: 12rem;
+    height: auto;
+}
+
+header .content {
+    border-bottom: 1px solid --border-color;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content .first-items {
+    align-items: center;
+}
+
+header .content .first-items .profile {
+    display: flex;
+}
+
+header .content .first-items .profile .img-box {
+    height: 3rem;
+    width: 3rem;
+    border-radius: var(--border-radius);
+    background: var(--border-color);
+    position: relative;
+}
+
+header .content .first-items .profile .img-box img {
+    width: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .content .first-items .profile .data {
+    margin-inline-start: 1.25rem;
+}
+
+header .content .first-items .profile .data .name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: medium;
+}
+
+header .content .first-items .profile .data .job {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: small;
+}
+
+header .content .last-items .search-box {
+    height: 3rem;
+    background: var(--background-color);
+    border-radius: var(--border-radius);
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+header .content .last-items .search-box form input {
+    font-family: var(--font-family);
+    background: transparent;
+    border-width: 0;
+    border-radius: 0;
+    color: var(--text-color);
+}
+
+header .content .last-items .search-box form input::placeholder {
+    color: var(--gray-dark);
+}
+
+header .content .last-items .search-box form input:focus {
+    outline: transparent;
+}
+
+header .content .last-items .search-box form a {
+    color: var(--thirdy);
+}
+
+header .content .last-items .search-box form a:hover,
+header .content .last-items .search-box form a:focus {
+    color: var(--primary);
+}

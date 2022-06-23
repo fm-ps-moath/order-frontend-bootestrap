@@ -1,0 +1,62 @@
+/* Import - font */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+:root {
+    --primary: #FF6200;
+    --secondary: #38B6FF;
+    --thirdy: #33363A;
+    --red: #EE3232;
+    --orange: #ff9900;
+    --yellow: #FFFA6F;
+    --green: #297F00;
+    --success: #2BC155;
+    --info: #2421DA;
+    --warning: #FF6D4D;
+    --danger: #FF4847;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --light: #F4F5F9;
+    --dark: #B1B1B1;
+    --text-color: #33363A;
+    --border-color: #EEEEEE;
+    --background-color: #F4F5F9;
+
+    --font-family: "Tajawal", sans-serif;
+    --font-size: 0.875rem;
+    --font-weight: 400;
+    --line-height: 1.5;
+
+    --nav-width: 20rem;
+    --side-width: 16rem;
+
+    --border-radius: 1.25rem;
+
+    --dirction: rtl;
+}
+
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    direction: var(--dirction);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: start;
+    margin: 0;
+}
